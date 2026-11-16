@@ -29,6 +29,9 @@ vic-dev/
 ├── assets/
 │   ├── css/styles.css
 │   └── images/
+│       ├── arts-of-life-screenshot.webp
+│       ├── holman-screenshot.webp
+│       ├── serenity-parlor-screenshot.webp
 │       ├── casa-screenshot.jpg
 │       ├── mr-exchange-screenshot.webp
 │       └── prop-md-screenshot.webp
