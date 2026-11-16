@@ -1,6 +1,6 @@
 # Viczen C. — Portfolio
 
-A responsive, single-page portfolio based on Viczen's Quickly Hire profile. Built with plain HTML and CSS; no build step required.
+A responsive, single-page portfolio for Viczen C., a web and software developer. Built with plain HTML and CSS; no build step required.
 
 ## Preview
 
@@ -18,4 +18,4 @@ The expected Pages address is https://viczgowp-dev.github.io/vic-dev/ when Pages
 - Layout, colors, and responsive styles: `styles.css`
 - Browser icon: `favicon.svg`
 
-Project graphics are illustrative title cards, not screenshots of client websites. The contact link directs visitors to the supplied Quickly Hire profile. Google Fonts is optional: the page falls back to system fonts when unavailable.
+Featured project images are real screenshots. CASA was captured from dccasaks.org; Mr. Exchange and Prop MD Finder use screenshots from the supplied project portfolio. Each image links to its project website. Contact options include email, phone, and LinkedIn. Google Fonts is optional: the page falls back to system fonts when unavailable.
