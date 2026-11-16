@@ -26,9 +26,11 @@ Featured project images are real screenshots. CASA was captured from dccasaks.or
 vic-dev/
 ├── index.html
 ├── favicon.svg
+├── sitemap.xml
 ├── assets/
 │   ├── css/styles.css
 │   └── images/
+│       ├── social-preview.png
 │       ├── arts-of-life-screenshot.webp
 │       ├── holman-screenshot.jpg
 │       ├── serenity-parlor-screenshot.webp
@@ -41,3 +43,13 @@ vic-dev/
 ```
 
 Keep styles in `assets/css` and project screenshots in `assets/images`. No JavaScript bundle or dependency installation is needed for this static site.
+
+## Search and sharing
+
+`index.html` includes the canonical Pages URL, search description, Open Graph and Twitter link previews, and ProfilePage/Person JSON-LD. Keep these in sync with the visible biography. The shared preview is `assets/images/social-preview.png`.
+
+The sitemap is https://viczgowp-dev.github.io/vic-dev/sitemap.xml. In Google Search Console, verify the URL-prefix property `https://viczgowp-dev.github.io/vic-dev/`, submit this sitemap, and inspect the homepage to request indexing. Verification requires the site owner's Google account; no verification token is included here.
+
+GitHub Pages serves this project below `/vic-dev/`. A `robots.txt` inside this repository would not control crawling: crawlers use `https://viczgowp-dev.github.io/robots.txt` at the host root. No blocking directives are added. Do not add a subdirectory robots file as an indexing fix.
+
+If the public domain changes, update the canonical URL, sitemap, structured data, and absolute social preview URLs together. Keep the sitemap to real canonical pages; section anchors are not separate pages. Search indexing and rankings are not guaranteed by these settings.
