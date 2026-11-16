@@ -876,3 +876,21 @@ footer>span,footer>a:last-child {
   width:100%;
   max-width:100%
 }
+
+/* Vector arrows avoid platform-dependent text and emoji rendering. */
+.link-arrow {
+  display:inline-flex;
+  flex-shrink:0;
+  vertical-align:middle;
+  line-height:1
+}
+.link-arrow svg {
+  display:block;
+  width:18px;
+  height:18px;
+  flex-shrink:0
+}
+.button .link-arrow svg {
+  width:22px;
+  height:22px
+}
