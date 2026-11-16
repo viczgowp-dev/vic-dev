@@ -15,7 +15,26 @@ The expected Pages address is https://viczgowp-dev.github.io/vic-dev/ when Pages
 ## Edit
 
 - Content and links: `index.html`
-- Layout, colors, and responsive styles: `styles.css`
+- Layout, colors, and responsive styles: `assets/css/styles.css`
 - Browser icon: `favicon.svg`
 
 Featured project images are real screenshots. CASA was captured from dccasaks.org; Mr. Exchange and Prop MD Finder use screenshots from the supplied project portfolio. Each image links to its project website. Contact options include email, phone, and LinkedIn. Google Fonts is optional: the page falls back to system fonts when unavailable.
+
+## Project structure
+
+```text
+vic-dev/
+├── index.html
+├── favicon.svg
+├── assets/
+│   ├── css/styles.css
+│   └── images/
+│       ├── casa-screenshot.jpg
+│       ├── mr-exchange-screenshot.webp
+│       └── prop-md-screenshot.webp
+├── .github/workflows/deploy.yml
+├── .nojekyll
+└── README.md
+```
+
+Keep styles in `assets/css` and project screenshots in `assets/images`. No JavaScript bundle or dependency installation is needed for this static site.
