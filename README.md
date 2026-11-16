@@ -30,7 +30,7 @@ vic-dev/
 │   ├── css/styles.css
 │   └── images/
 │       ├── arts-of-life-screenshot.webp
-│       ├── holman-screenshot.webp
+│       ├── holman-screenshot.jpg
 │       ├── serenity-parlor-screenshot.webp
 │       ├── casa-screenshot.jpg
 │       ├── mr-exchange-screenshot.webp
